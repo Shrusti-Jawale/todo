@@ -1,0 +1,59 @@
+
+.create_form {
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+ margin-left: 30%;
+}
+.btn{
+  padding: 10px;
+  background-color: black;
+  columns: white;
+  cursor: pointer;
+  color: white;
+}
+.home{
+  margin-left: 40%;
+}
+/* .task{
+  margin-left: 30%;
+  background-color: black;
+  color: white;
+  width: 360px;
+  height: 30px;
+  margin-top: 10px;
+  padding: 3px;
+} */
+ .task{
+  display: flex;
+  align-items: center;
+  width: 345px;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin-top: 5px;
+  margin-left: 30%;
+ }
+ .checkbox{
+  display: flex;
+  align-items: center;
+ }
+
+ .checkbox .icon{
+  margin-right: 5px;
+  font-size: 15px;
+ }
+ .line_through{
+  text-decoration:line-through ;
+ }
+
+ .task div span{
+  margin: 0px 5px 0px 4px
+ }
+
+ .task div .icon{
+  cursor: pointer;
+ }
